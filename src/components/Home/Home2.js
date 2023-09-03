@@ -4,8 +4,8 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+  AiFillFileText,
+  AiOutlineMail,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -19,27 +19,27 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I fell in love with <b className="purple">computers, programming</b>, and <b className="purple">data </b> and I have at least learnt
+              to grow with them.
               <br />
-              <br />I am fluent in classics like
+              <br />I am fluent in technologies like
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
-              </i>
+                <b className="purple"> Python</b></i> and its vast libraries such as 
+                <i><b className="purple"> Django, Flask, Numpy, Pandas, Matplotlib</b></i> as well as database and web technologies like <i><b className="purple">MySQL, HTML, CSS,</b></i> and<i><b className="purple"> Javascript. </b></i>
+              
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My field of Interest's are building new 
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
+                <b className="purple"> Web Technologies </b> and
+                <b className="purple"> Data Science </b>
               </i>
+               Products.
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              with <b className="purple">
+              <i>Python</i></b> and
               <i>
                 <b className="purple">
                   {" "}
@@ -48,7 +48,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> Django, Flask, and React.js</b>
               </i>
             </p>
           </Col>
@@ -61,13 +61,13 @@ function Home2() {
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
-            <p>
+            {/* <p>
               Feel free to <span className="purple">connect </span>with me
-            </p>
+            </p> */}
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/HirenRupchandani"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,17 +77,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/hiren-rupchandani/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,12 +87,22 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <AiFillInstagram />
+                  <AiFillFileText />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="mailto:rupchandanihiren@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <AiOutlineMail />
                 </a>
               </li>
             </ul>
