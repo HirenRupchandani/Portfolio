@@ -18,15 +18,8 @@
 
 </center>
 
-<h3 align="center">
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Request Feature</a>
-</h3
-
 ## Built With
 
-My personal portfolio <a href="https://soumyajit.vercel.app/" target="_blank"> which features some of my github projects as well as my resume and technical skills.<br/>
+My personal portfolio <a href="/" target="_blank"> features some of my academic projects as well as my resume and technical skills.<br/>
 
 - Inspired from [Soumyajit4419](https://github.com/soumyajit4419/Portfolio)'s portfolio.
