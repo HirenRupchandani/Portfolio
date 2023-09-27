@@ -2,10 +2,9 @@ import React from "react";
 import { Row } from "react-bootstrap";
 import { useEffect, useState } from "react";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
-import { Doughnut } from 'react-chartjs-2';
+import { Doughnut, Pie } from 'react-chartjs-2';
 
 ChartJS.register(ArcElement, Tooltip, Legend);
-
 
 export const data = {
   labels: ['Easy', 'Medium', 'Hard'],
