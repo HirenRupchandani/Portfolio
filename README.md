@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website - v1.1<br/>
-  <a href="/" target="_blank">Hiren Rupchandani</a>
+  <a href="https://hirenrupchandani.github.io/Portfolio/" target="_blank">Hiren Rupchandani</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="/" />
