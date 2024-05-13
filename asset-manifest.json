@@ -1,30 +1,31 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.1e4085c3.css",
-    "main.js": "/Portfolio/static/js/main.a4b4aa67.js",
+    "main.css": "/Portfolio/static/css/main.0c49e22c.css",
+    "main.js": "/Portfolio/static/js/main.9a32e34d.js",
     "static/js/415.4d6acbeb.chunk.js": "/Portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/avatar.png": "/Portfolio/static/media/avatar.d1791b129d599474d722.png",
     "static/media/leaf.png": "/Portfolio/static/media/leaf.ff2616f664c8c0ceab91.png",
     "static/media/emotion.png": "/Portfolio/static/media/emotion.eabfc16e7a146ab15778.png",
     "static/media/suicide.png": "/Portfolio/static/media/suicide.9c86cd7138a398c45fa5.png",
     "static/media/codeEditor.png": "/Portfolio/static/media/codeEditor.1b585492490c8c1cace9.png",
+    "static/media/anomalyfinder.jpg": "/Portfolio/static/media/anomalyfinder.b78a451e289cce2ea590.jpg",
     "static/media/blog.png": "/Portfolio/static/media/blog.fb8ab7f271a937d5fc01.png",
-    "static/media/home-main.svg": "/Portfolio/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
     "static/media/about.png": "/Portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/crimsonboard.png": "/Portfolio/static/media/crimsonboard.9a08a32ac3b92cdf316b.png",
     "static/media/chatify.png": "/Portfolio/static/media/chatify.7206044e0b5cdad44726.png",
-    "static/media/home-bg.jpg": "/Portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
-    "static/media/Hiren_Rajesh_Rupchandani_Resume.pdf": "/Portfolio/static/media/Hiren_Rajesh_Rupchandani_Resume.cb7841671aa77d0275b2.pdf",
-    "static/media/avatar.svg": "/Portfolio/static/media/avatar.7f806e40d46fc76fbc3c4a3d71349951.svg",
-    "static/media/logo.png": "/Portfolio/static/media/logo.bda3f88bce391de5a52e.png",
+    "static/media/videogamerec.webp": "/Portfolio/static/media/videogamerec.df2b53fffd922acb4d58.webp",
+    "static/media/Hiren_Rajesh_Rupchandani.pdf": "/Portfolio/static/media/Hiren_Rajesh_Rupchandani.8fd45fc0b7dd291587f0.pdf",
+    "static/media/logo-red.png": "/Portfolio/static/media/logo-red.422c23a9ea1fb51ea7f3.png",
     "static/media/pre.svg": "/Portfolio/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/Portfolio/index.html",
-    "main.1e4085c3.css.map": "/Portfolio/static/css/main.1e4085c3.css.map",
-    "main.a4b4aa67.js.map": "/Portfolio/static/js/main.a4b4aa67.js.map",
+    "main.0c49e22c.css.map": "/Portfolio/static/css/main.0c49e22c.css.map",
+    "main.9a32e34d.js.map": "/Portfolio/static/js/main.9a32e34d.js.map",
     "415.4d6acbeb.chunk.js.map": "/Portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e4085c3.css",
-    "static/js/main.a4b4aa67.js"
+    "static/css/main.0c49e22c.css",
+    "static/js/main.9a32e34d.js"
   ]
 }
