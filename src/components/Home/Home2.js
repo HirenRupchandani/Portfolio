@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -16,7 +16,7 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              Let Me <span className="purple"> Introduce </span> Myself
             </h1>
             <p className="home-about-body">
               I fell in love with <b className="purple">computers, programming</b>, and <b className="purple">data </b> and I have at least learnt
@@ -25,7 +25,7 @@ function Home2() {
               <br />I am fluent in technologies like
               <i>
                 <b className="purple"> Python</b></i> and its vast libraries such as 
-                <i><b className="purple"> Django, Flask, Numpy, Pandas, Matplotlib</b></i> as well as database and web technologies like <i><b className="purple">MySQL, HTML, CSS,</b></i> and<i><b className="purple"> Javascript. </b></i>
+                <i><b className="purple"> Django, Flask, Numpy, Pandas, Matplotlib, TensforFlow, Keras</b></i> as well as database and web technologies like <i><b className="purple">MySQL, HTML, CSS,</b></i> and<i><b className="purple"> Javascript. </b></i>
               
               <br />
               <br />
@@ -60,7 +60,7 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1>Find me on</h1>
             {/* <p>
               Feel free to <span className="purple">connect </span>with me
             </p> */}
@@ -87,7 +87,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="/"
+                  href="/Portfolio/articles"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
@@ -97,7 +97,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="mailto:rupchandanihiren@gmail.com"
+                  href="mailto:hrupchan@iu.edu"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
