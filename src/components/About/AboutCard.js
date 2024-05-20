@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Hiren Rupchandani </span>
             from <span className="purple"> Bloomington, Indiana.</span>
-            <br /> I am pursuing Master of Science in Computer Science at Indiana University Bloomington.
+            <br /> I am a Master of Science in Computer Science from Indiana University - Bloomington.
             <br />
             Previously, I have worked as a Data Science Researcher at an Ed-Tech named INSAID (now Accredian).
             <br />
