@@ -2,12 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import hcdr from "../../Assets/Projects/hcdr.jpeg";
+import chatify from "../../Assets/Projects/pdf_assistant.jpg";
+import car from "../../Assets/Projects/car.webp";
 import vgs from "../../Assets/Projects/videogamerec.webp";
 import anomalyfinder from "../../Assets/Projects/anomalyfinder.jpg"
 import cboard from "../../Assets/Projects/crimsonboard.png"
@@ -24,13 +21,34 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={car}
+              isBlog={false}
+              title="Self-Driving Car"
+              description="A Level 2 Autonomous Driving System"
+              ghLink="https://github.com/HirenRupchandani/assets/blob/main/Driving_Hands.pdf"
+              demoLink=""
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatify}
+              isBlog={false}
+              title="GPT Powered PDF Assistant"
+              description="A system that allows you to chat with your PDF"
+              ghLink="https://github.com/HirenRupchandani/PDF-Chat"
+              demoLink=""
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={anomalyfinder}
               isBlog={false}
-              title="AnomalyFinder"
-              description=""
-              ghLink="https://github.iu.edu/hrupchan/IntrusionMaster"
+              title="IntrusionMaster"
+              description="A system to detect intrusion in a network  "
+              ghLink="https://github.com/HirenRupchandani/IDS"
               demoLink="https://majestic-raindrop-6ce37c.netlify.app/"
             />
           </Col>
@@ -40,8 +58,8 @@ function Projects() {
               imgPath={cboard}
               isBlog={false}
               title="CrimsonBoard"
-              description=""
-              ghLink="https://github.iu.edu/hrupchan/SP23_Team22_Learning_Management_System"
+              description="A Learning management system for Indiana University"
+              ghLink="https://github.com/HirenRupchandani/LMS"
               demoLink="https://www.youtube.com/watch?v=p9nVGRKm6lI"
             />
           </Col>
@@ -50,45 +68,25 @@ function Projects() {
             <ProjectCard
               imgPath={vgs}
               isBlog={false}
-              title="Video Games' Recommendation System"
-              description=""
-              ghLink=""
+              title="Games Recommendation System"
+              description="A System that recommends you video games based on your preferences"
+              ghLink="https://github.com/HirenRupchandani/Video-Game-Recommendation-System"
               demoLink=""              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={hcdr}
               isBlog={false}
               title="Home Credit Default Risk Prediction"
-              description=""
+              description="A solution to predict whether a specific client will repay the home loan they have taken out"
               ghLink="https://github.iu.edu/hrupchan/Home-Credit-Default-Risk"
               demoLink=""
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Self-Driving Car"
-              description=""
-              ghLink=""
-              demoLink=""
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Good Reads Book Analysis and Recommendation"
-              description=""
-              ghLink=""
-              demoLink=""
-            />
-          </Col>
+          
         </Row>
       </Container>
     </Container>

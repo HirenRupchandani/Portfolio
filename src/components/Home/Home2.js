@@ -1,7 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.png";
+import myImg2 from "../../Assets/data.png";
 import Tilt from "react-parallax-tilt";
+import CustomTimeline from "./CustomTimeline";
 import {
   AiFillGithub,
   AiFillFileText,
@@ -14,50 +16,32 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              Let Me <span className="purple"> Introduce </span> Myself
+          <Col md={6} className="home-about-description">
+            <h1 style={{ fontSize: "3em", paddingTop: 100 }}>
+              <span className="purple">Let Me Introduce Myself</span>
             </h1>
             <p className="home-about-body">
-              I fell in love with <b className="purple">computers, programming</b>, and <b className="purple">data </b> and I have at least learnt
+              I fell in love with computers, programming, and data and I have at least learnt
               to grow with them.
               <br />
-              <br />I am fluent in technologies like
-              <i>
-                <b className="purple"> Python</b></i> and its vast libraries such as 
-                <i><b className="purple"> Django, Flask, Numpy, Pandas, Matplotlib, TensforFlow, Keras</b></i> as well as database and web technologies like <i><b className="purple">MySQL, HTML, CSS,</b></i> and<i><b className="purple"> Javascript. </b></i>
+              <br />I am fluent in technologies like Python and its vast libraries such as Django, Flask, Numpy, Pandas, Matplotlib, TensforFlow, Keras
+              as well as database and web technologies like MySQL, HTML, CSS, andJavascript.
               
               <br />
               <br />
-              My field of Interest's are building new 
-              <i>
-                <b className="purple"> Web Technologies </b> and
-                <b className="purple"> Data Science </b>
-              </i>
-               Products.
+              I love building new Web and Data Products.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">
-              <i>Python</i></b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> Django, Flask, and React.js</b>
-              </i>
+              
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
+          <Col md={5} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg2} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
+        <CustomTimeline />
         <Row>
           <Col md={12} className="home-about-social">
             <h1>Find me on</h1>
@@ -109,7 +93,9 @@ function Home2() {
           </Col>
         </Row>
       </Container>
+      
     </Container>
+    
   );
 }
 export default Home2;

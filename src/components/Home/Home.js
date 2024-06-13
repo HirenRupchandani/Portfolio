@@ -12,33 +12,28 @@ function Home() {
         <Particle />
         <Container className="home-content">
           <Row>
+          <Col md={5} className="myAvtar">
+            <Tilt>
+              <img src={homeLogo} className="img-fluid" alt="avatar1" />
+            </Tilt>
+          </Col>
             <Col md={6} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
+              <h1 style={{ paddingBottom: 15, paddingTop: 100 }} className="heading">
                 Hi There!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
               </h1>
-
               <h1 className="heading-name">
                 I'm 
                 <strong className="main-name"> Hiren Rupchandani</strong>
                 </h1>
               <div style={{ padding: 50, textAlign: "left" }}></div>
-              <h1 className="heading-name">I'm looking for </h1>
-              <div style={{ padding: 50, textAlign: "left" }}>
-              
+              <h1 className="heading-name">I'm a </h1>
+              <div style={{ padding: 0, textAlign: "left", paddingLeft: 43 }}>
                 <Type />
-                
               </div>
-              <h1 className="heading-name">Roles </h1>
             </Col>
-
-            <Col md={5} className="myAvtar">
-            <Tilt>
-              <img src={homeLogo} className="img-fluid" alt="avatar1" />
-            </Tilt>
-          </Col>
           </Row>
         </Container>
       </Container>

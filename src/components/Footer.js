@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+  AiFillGithub
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
+import { AiOutlineMail } from 'react-icons/ai';
 
 function Footer() {
   let date = new Date();
@@ -34,13 +34,34 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/hiren-rupchandani/"
-                style={{ color: "white" }}
+                style={{ color: "#0a66c2" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
               </a>
             </li>
+            <li className="social-icons">
+              <a
+                href="https://leetcode.com/u/Hiren_Rupchandani/"
+                style={{ color: "#EBA340" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <SiLeetcode />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="mailto:hrupchan@iu.edu"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <AiOutlineMail />
+              </a>
+            </li>
+
           </ul>
         </Col>
       </Row>

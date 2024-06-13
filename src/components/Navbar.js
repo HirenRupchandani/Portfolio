@@ -1,20 +1,11 @@
-import React, { useState } from "react";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
-import Container from "react-bootstrap/Container";
-import logo from "../Assets/logo-red.png";
-import Button from "react-bootstrap/Button";
-import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
-import {
-  AiFillStar,
-  AiOutlineHome,
-  AiOutlineFundProjectionScreen,
-  AiOutlineUser,
-} from "react-icons/ai";
-
-import { CgFileDocument } from "react-icons/cg";
+import React, { useState } from 'react';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+import Container from 'react-bootstrap/Container';
+import logo from '../Assets/logo-red.png';
+import { Link } from 'react-router-dom';
+import { AiOutlineHome, AiOutlineFundProjectionScreen, AiOutlineUser, AiOutlineMail } from 'react-icons/ai';
+import { CgFileDocument } from 'react-icons/cg';
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -28,80 +19,51 @@ function NavBar() {
     }
   }
 
-  window.addEventListener("scroll", scrollHandler);
+  window.addEventListener('scroll', scrollHandler);
 
   return (
-    <Navbar
-      expanded={expand}
-      fixed="top"
-      expand="md"
-      className={navColour ? "sticky" : "navbar"}
-    >
+    <Navbar expanded={expand} fixed="top" expand="md" className={navColour ? 'sticky' : 'navbar'}>
       <Container>
         <Navbar.Brand href="/Portfolio" className="d-flex">
           <img src={logo} className="img-fluid logo" alt="brand" />
         </Navbar.Brand>
-        <Navbar.Toggle
-          aria-controls="responsive-navbar-nav"
-          onClick={() => {
-            updateExpanded(expand ? false : "expanded");
-          }}
-        >
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={() => updateExpanded(expand ? false : 'expanded')}>
           <span></span>
           <span></span>
           <span></span>
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
+            {/* <Nav.Item className="d-flex align-items-center">
+              <IoPhonePortrait style={{ marginRight: '10px' }} />
+              <span style={{ color: 'white' }}>+1 812-650-8663</span>
+            </Nav.Item> */}
+            <Nav.Item>
+              <a href="mailto:hrupchan@iu.edu" className="nav-link" onClick={() => updateExpanded(false)}>
+                <AiOutlineMail style={{ marginBottom: '2px' }} />
+                <span style={{ marginLeft: '5px' }}>hrupchan@iu.edu</span>
+              </a>
+            </Nav.Item>
             <Nav.Item>
               <Nav.Link as={Link} to="/Portfolio" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+                <AiOutlineHome style={{ marginBottom: '2px' }} /> Home
               </Nav.Link>
             </Nav.Item>
-
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/about"
-                onClick={() => updateExpanded(false)}
-              >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+              <Nav.Link as={Link} to="/about" onClick={() => updateExpanded(false)}>
+                <AiOutlineUser style={{ marginBottom: '2px' }} /> About
               </Nav.Link>
             </Nav.Item>
-
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/project"
-                onClick={() => updateExpanded(false)}
-              >
-                <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Projects
+              <Nav.Link as={Link} to="/project" onClick={() => updateExpanded(false)}>
+                <AiOutlineFundProjectionScreen style={{ marginBottom: '2px' }} /> Projects
               </Nav.Link>
             </Nav.Item>
-
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/resume"
-                onClick={() => updateExpanded(false)}
-              >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+              <Nav.Link as={Link} to="/resume" onClick={() => updateExpanded(false)}>
+                <CgFileDocument style={{ marginBottom: '2px' }} /> Resume
               </Nav.Link>
             </Nav.Item>
-
-            {/* <Nav.Item className="fork-btn">
-              <Button
-                href="https://github.com/HirenRupchandani/Portfolio"
-                target="_blank"
-                className="fork-btn-inner"
-              >
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
-              </Button>
-            </Nav.Item> */}
           </Nav>
         </Navbar.Collapse>
       </Container>
