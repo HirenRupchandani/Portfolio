@@ -15,7 +15,7 @@ const timelineData = [
     title: "Data Analyst",
     organization: "Velan Studios, Inc.",
     date: "September 2024 - Present",
-    description: "Worked with the Development, Marketing, and Executive teams of Midnight Murder Club to analyze player behavior and gudie the game's direction.",
+    description: "Worked with the Development, Marketing, and Executive teams of Midnight Murder Club to analyze player behavior and guide the game's direction.",
   },
   {
     title: "Associate Instructor",
