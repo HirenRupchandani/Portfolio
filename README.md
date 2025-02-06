@@ -16,5 +16,3 @@
 ## Built With React.JS
 
 My personal portfolio <a href="https://hirenrupchandani.github.io/Portfolio/" target="_blank"> features some of my academic projects as well as my resume and technical skills.<br/>
-
-- Inspired from [Soumyajit4419](https://github.com/soumyajit4419/Portfolio)'s portfolio.
