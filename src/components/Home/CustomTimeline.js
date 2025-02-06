@@ -7,9 +7,16 @@ import 'react-vertical-timeline-component/style.min.css';
 import { FaGraduationCap, FaLaptopCode, FaExternalLinkAlt , FaUniversity  } from 'react-icons/fa';
 import { DiGoogleAnalytics } from "react-icons/di";
 import { AiOutlineYoutube } from "react-icons/ai";
+import { GiRetroController } from "react-icons/gi";
 
 // Your provided timeline data
 const timelineData = [
+  {
+    title: "Data Analyst",
+    organization: "Velan Studios, Inc.",
+    date: "September 2024 - Present",
+    description: "Worked with the Development, Marketing, and Executive teams of Midnight Murder Club to analyze player behavior and gudie the game's direction.",
+  },
   {
     title: "Associate Instructor",
     organization: "Indiana University Bloomington",
@@ -45,6 +52,7 @@ const timelineData = [
 
 // Icon mapping based on the role type
 const iconMapping = {
+  "Data Analyst": <GiRetroController />,
   "Associate Instructor": <FaLaptopCode />,
   "Master of Science in Computer Science": <FaUniversity />,
   "Data Scientist": <DiGoogleAnalytics />,
